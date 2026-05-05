@@ -24,6 +24,7 @@ pos = 1
 pos2 = 4
 global game
 game = True
+dot = background
 if levelgen is True:
    bg = f"{background} "*10 + f"{obstacles} "*3 + f"{background} "*57
    ground = f"{ground} "*70
